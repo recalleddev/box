@@ -1,0 +1,23 @@
+Comandos básicos que eu usei para fazer a minha peimeira publicação no github, nem sei se o termo publicação é o adquado, mas vamos lá.
+Primeiro instalar o git -> apt install git -> isso no meu caso que estou sando uma distro baseada no Debian
+Depois:
+	git config --global user.name "nome"
+	git config --global user.email "email"
+Depois:
+	vá ao github e crie um repositorio, é bem intuitivo, 1 min procurando e você vai conseguir encontrar.
+Depois:
+	vai ser pedido que você defina algumas coisas, e caso você não maque ele vai mandar para uma telinha, e na parte de cima vai ter a opção de clonar o projeto, recém criado, no meu caso, ele está vazio.
+Depois:
+	para clonar: você digita git clone e cola o link que estava la no github
+Depois:
+	depois de clonado o projeto vai ser criada uma pasta com o nome do projeto que você definiu lá no github, que é o único compao obrigatório.
+Depois:
+	eu acessei a pasta e inclui um arquivo de texto dentro, já que estava vazio, e não teria o que ser modificado
+Depois:
+	git add nome do arq
+	git commit -m "descrição"
+	git push este passo vai pedir usuario e senha do github, ao fazer o logim seu projeto será enviado para o seu repositório.
+E pronto é basicamente isso, tem mais, eu acredito que sim, mas eu não sei, como dito é o meu primeiro commit, e escrever como eu fiz me ajuda a fixá-lo melhor.
+Espero que esse passo a passo simples sirva para iniciar as pessoas que como eu estão dando seus primeiros passos.
+Eu segui esse post aqui para fazer https://medium.com/reprogramabr/git-e-github-por-onde-come%C3%A7ar-ca88a783c223
+Quem quizer dar uma olhada eu recomendo, já que ele explica melhor.
